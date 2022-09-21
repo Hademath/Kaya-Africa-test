@@ -10,7 +10,14 @@
     height: 105px;
     margin-left: -15px;
 }
-
+.nav-header a {
+    text-decoration: none;
+    color: #d23232;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
 .nav-toggle {
     background: transparent;
     border: transparent;
@@ -55,7 +62,7 @@ li {
 
 li:hover,
 .dropdown:hover .dropbtn {
-    border-bottom: 2px solid #0b9d68;
+    border-bottom: 2px solid #d23232;
 }
 
 .button_create button {
@@ -96,12 +103,12 @@ li:hover,
         /* color: var(--clr-grey-3); */
         font-size: 1rem;
         text-transform: capitalize;
-        letter-spacing: var(--spacing);
+        letter-spacing: 2px;
         padding: 0.5rem;
     }
 
     .nav-links li a:hover {
-        border-bottom: 2px solid var(--clr-primary-7);
+        border-bottom: 1px solid #d23232;
     }
 
     .button_create {

@@ -5,6 +5,7 @@ import VendorLogsPage from './Pages/VendorLogsPage';
 import HomePage from './Pages/HomePage';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBarComponent from "./Components/NavBarComponent/NavBarComponent";
+import FooterComponent from "./Components/Footer/FooterComponent";
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
 
           <Route path="*" element={<h1>Page Not Found</h1>} />
         </Routes>
-        {/* <FooterComponent /> */}
+        <FooterComponent />
       </BrowserRouter>
     </div>
   );

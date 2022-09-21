@@ -14,7 +14,7 @@ function NavBarComponent() {
       <div className="nav-center">
         <div className="nav-header">
                   <Link to="/">
-            LOGO
+           FASHION LOGO
             {/* <img href="/" src="#" alt="logo" /> */}
 
           </Link>
@@ -44,7 +44,7 @@ function NavBarComponent() {
 
         <div className="button_create">
           <button className="btn btn-primary">
-            <Link to="#createcv">Shopping Now</Link>
+            <Link to="/shopping">Shopping Now</Link>
           </button>
         </div>
       </div>
