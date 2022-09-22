@@ -6,3 +6,75 @@
     height: 90vh;
     background-color: #e35c5c;
 }
+
+.form {
+    background-color: white;
+    border-radius: 5px;
+    width: 650px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 700px;
+}
+
+.form-body {
+    text-align: left;
+    padding: 20px 10px;
+}
+
+.form-body>* {
+    padding: 5px;
+}
+.form h1{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+    color: #000000;
+    line-height: 70px;
+}
+.form-body input {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+.form__label {
+    width: 40%;
+}
+
+.form_input {
+    width: 60%;
+}
+
+.footer {
+    text-align: center;
+    background-color: red;
+}
+.footer button {
+    text-decoration: none;
+    font-size: 30px;
+    border: 0px solid transparent;
+    border-radius:10px;
+    color: #d23232;
+    background-color:#fff;
+    padding: 10px;
+    font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
+    cursor: pointer;
+}
+.footer button:hover {
+    color: #fff;
+    background-color: #d23232;
+}
+
+@media(max-width: 768px) {
+    .form {
+        width: 90%;
+        height: 100%;
+        border-radius: 0;
+}
+    
+}

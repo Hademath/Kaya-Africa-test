@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Pic from "../assets/homepics.png";
+import DisplayProductComponent from '../Components/DisplayProductComponent'
 const HomePage = () => {
     return (
       <div>
@@ -18,7 +19,8 @@ const HomePage = () => {
           <div className="Home__container__right">
             <img src={Pic} alt="homepic" />
           </div>
-        </div>
+            </div>
+            <DisplayProductComponent />
       </div>
     );
 }

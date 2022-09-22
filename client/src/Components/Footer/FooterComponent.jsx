@@ -1,21 +1,36 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./footerStyle.css";
-// import { solid, regular, brands } from '@fortawesome/fontawesome-svg-core/import.macro' 
+// import { solid, regular, brands } from '@fortawesome/fontawesome-svg-core/import.macro'
 const FooterComponent = () => {
-    return (
-         <>
+  return (
+    <>
       <div className="footer">
         <div className="footer__container">
           <div className="footer__item">
-            <h1>FASHION SHOP </h1>
-            <Link to="/build-cv"> CV Maker</Link>
-            <Link to="/cv"> CV Templates</Link>
-            <Link to="/cv"> CV Examples</Link>
-            <Link to="/cv"> How Write CV</Link>
-            <Link to="/cv"> CV Format</Link>
+            {/* <img src="http://placehold.it" alt="LOGO" /> */}
+            FASHION LOGO
+            <Link to="/shopping">
+              <button>SHOP NOW</button>{" "}
+            </Link>
+            <span style={{ fontSize: "40px" }}>
+              <Link
+                style={{ fontSize: "30px", color: "#ffffff" }}
+                to="/admin_page"
+              >
+                ADMIN LOGIN
+              </Link>
+            </span>
           </div>
-        
+          <div className="footer__item">
+            <h1>FASHION SHOP </h1>
+            <Link to="/Females_ware"> Female Cloth</Link>
+            <Link to="/male_ware"> Make Wares</Link>
+            <Link to="/kids"> Kids </Link>
+            <Link to="/harmattern"> Harmattern </Link>
+            <Link to="/winter"> Winter Ware</Link>
+          </div>
+
           <div className="footer__item">
             <h1>ABOUT</h1>
             <Link to="#"> Who We Are</Link>
@@ -51,7 +66,7 @@ const FooterComponent = () => {
         </div>
       </div>
     </>
-    )
-}
+  );
+};
 
-export default FooterComponent
+export default FooterComponent;
