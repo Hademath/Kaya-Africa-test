@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBarComponent from "./Components/NavBarComponent/NavBarComponent";
 import FooterComponent from "./Components/Footer/FooterComponent";
 import RegisterComponent from "./Components/RegisterComponent";
+import LoginComponent from "./Components/LoginComponent";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             {/* <Route path="about" element={<About />} /> */}
           </Route>
           <Route path="/register" element={<RegisterComponent />} />
+          <Route path="/login" element={<LoginComponent />} />
 
           <Route path="*" element={<h1>Page Not Found</h1>} />
         </Routes>

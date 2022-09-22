@@ -5,7 +5,7 @@ function RegisterComponent() {
   return (
     <>
           <div className="form">
-              <h1>Register User</h1>
+              <h1> User Sign Up</h1>
         <div className="form-body">
           <div className="username">
             <label className="form__label" for="firstName">
