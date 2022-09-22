@@ -18,7 +18,7 @@ const FooterComponent = () => {
                 style={{ fontSize: "30px", color: "#ffffff" }}
                 to="/admin_page"
               >
-                ADMIN LOGIN
+                Admin Board
               </Link>
             </span>
           </div>
