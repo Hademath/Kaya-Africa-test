@@ -1,8 +1,8 @@
 {
   "name": "client",
-  "homepage": "hademathdata.com/firstreactclient",
   "version": "0.1.0",
   "private": true,
+  "homepage": "hademathdata.com/firstreactclient/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
     "@fortawesome/free-regular-svg-icons": "^6.2.0",
